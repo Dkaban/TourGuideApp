@@ -3,7 +3,6 @@
 //  Tour Guide App
 //
 //  Dustin Kaban
-//  Student ID: T00663749
 //  September 23rd, 2020
 //
 //  This class handles the location information functionality via a Fragment
