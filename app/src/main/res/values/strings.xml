@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_locations">Fragment Locations</string>
+    <string name="fragment_info">Welcome to the Tour Guide App!  Created by Dustin Kaban.</string>
+    <string name="welcome_message">Welcome to the Tour Guide App!</string>
+    <string-array name="locations">
+        <item>Calgary</item>
+        <item>Victoria</item>
+        <item>Vancouver</item>
+        <item>Toronto</item>
+        <item>Kamloops</item>
+        <item>Edmonton</item>
+        <item>Montreal</item>
+        <item>Regina</item>
+    </string-array>
+    <string-array name="info">
+        <item>Calgary, a cosmopolitan Alberta city with numerous skyscrapers, owes its rapid growth to its status as the centre of Canadas oil industry. However, its still steeped in the western culture that earned it the nickname “Cowtown,” evident in the Calgary Stampede, its massive July rodeo and festival that grew out of the farming exhibitions once presented here.</item>
+        <item>Victoria, capital of British Columbia, sits on the craggy southern end of Vancouver Island. With abundant parkland, its known for outdoor activities. The citys British colonial past shows in its Victorian architecture, including stately Craigdarroch Castle mansion. Butchart Gardens, with 55 acres of vivid floral displays, plus statuary, water features and a carousel, is one of many formal gardens in the city.</item>
+        <item>Vancouver, a bustling west coast seaport in British Columbia, is among Canadas densest, most ethnically diverse cities. A popular filming location, its surrounded by mountains, and also has thriving art, theatre and music scenes. Vancouver Art Gallery is known for its works by regional artists, while the Museum of Anthropology houses preeminent First Nations collections.</item>
+        <item>Toronto, the capital of the province of Ontario, is a major Canadian city along Lake Ontarios northwestern shore. Its a dynamic metropolis with a core of soaring skyscrapers, all dwarfed by the iconic, free-standing CN Tower. Toronto also has many green spaces, from the orderly oval of Queens Park to 400-acre High Park and its trails, sports facilities and zoo.</item>
+        <item>Kamloops is a Canadian city in British Columbia, where the North and South Thompson rivers meet. Sun Peaks Resorts hiking trails, bike park and numerous ski runs lie to the northeast. Cougars and bears inhabit the British Columbia Wildlife Park east of town. West, above Kamloops Lake are clay hoodoos (or spires). The riverside Secwepemc Museum and Heritage Park features the remains of a 2,000-year-old village.</item>
+        <item>Edmonton is the capital city of the Canadian province of Alberta. Edmonton is on the North Saskatchewan River and is the centre of the Edmonton Metropolitan Region, which is surrounded by Albertas central region. The city anchors the north end of what Statistics Canada defines as the "Calgary–Edmonton Corridor".</item>
+        <item>Montreal is the largest city in Canadas Quebec province. Its set on an island in the Saint Lawrence River and named after Mt. Royal, the triple-peaked hill at its heart. Its boroughs, many of which were once independent cities, include neighbourhoods ranging from cobblestoned, French colonial Vieux-Montreal – with the Gothic Revival Notre-Dame Basilica at its centre – to bohemian Plateau.</item>
+        <item>Regina is the capital of Saskatchewan, Canada. The Royal Saskatchewan Museum has exhibits on Canadas Aboriginal peoples and native animals. Its in the Wascana Centre, a park surrounding Wascana Lake. Also in the park is the MacKenzie Art Gallery, with local and global artwork. Hands-on displays fill the lakeside Saskatchewan Science Centre. The RCMP Heritage Centre celebrates the Royal Canadian Mounted Police.</item>
+    </string-array>
+
+</resources>
