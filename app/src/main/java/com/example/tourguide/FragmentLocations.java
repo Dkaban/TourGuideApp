@@ -23,8 +23,8 @@ import android.widget.ListView;
 
 public class FragmentLocations extends Fragment
 {
-    ArrayAdapter<String> adapter;
-    String[] data;
+    private ArrayAdapter<String> adapter;
+    private String[] data;
     private OnFragmentInteractionListener mListener;
 
     public FragmentLocations()
@@ -35,12 +35,14 @@ public class FragmentLocations extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        return inflater.inflate(R.layout.fragment_locations,container,false);//view;
+        return inflater.inflate(R.layout.fragment_locations,container,false);
     }
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
+        
+        //Initialize the listener, if we have an instance of it.
         if(context instanceof OnFragmentInteractionListener)
         {
             mListener = (OnFragmentInteractionListener) context;
@@ -66,10 +68,11 @@ public class FragmentLocations extends Fragment
         adapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1,android.R.id.text1,data);
         listView.setAdapter(adapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() 
+        {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Log.d("TAG", "Fragment Log ->>> Item " + position + " selected!");
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) 
+            {
                 if(mListener != null)
                 {
                     mListener.onFragmentInteraction(position);
@@ -77,7 +80,8 @@ public class FragmentLocations extends Fragment
             }
         });
     }
-
+    
+    //The interface that acts as the listener for 
     public interface OnFragmentInteractionListener
     {
         void onFragmentInteraction(int position);
